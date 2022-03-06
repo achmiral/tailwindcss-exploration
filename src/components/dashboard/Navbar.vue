@@ -1,7 +1,7 @@
 <template>
   <nav class="container mx-auto">
     <div class="grid grid-cols-12">
-      <div class="col-span-2 text-white text-lg font-bold p-6">Shoes</div>
+      <router-link to="/" class="flex items-center col-span-2 text-white text-lg font-bold p-6">Shoes</router-link>
 
       <div class="p-6 col-span-10 flex items-center justify-between">
         <div class="relative">
