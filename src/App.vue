@@ -1,6 +1,5 @@
 <template>
-  <!-- <Dashboard /> -->
-  <BottomNavigation />
+  <router-view />
 </template>
 
 <script>
