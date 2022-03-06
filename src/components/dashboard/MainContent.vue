@@ -1,12 +1,14 @@
 <template>
-  <main class="col-span-10">
+  <main class="col-span-12 lg:col-span-10">
     <h1 class="text-4xl mb-5 font-medium text-gray-100">Discover</h1>
 
-    <div class="grid grid-cols-12 gap-5 h-72 mb-8">
-      <div class="relative p-4 col-span-8 rounded-2xl bg-cyan-500">
+    <div class="grid grid-cols-1 lg:grid-cols-12 gap-5 lg:h-72 mb-8">
+      <div class="relative p-4 lg:col-span-8 rounded-2xl bg-cyan-500">
         <div class="p-5">
-          <div class="w-72">
-            <span class="block text-3xl mb-5 leading-normal tracking-wider font-medium text-gray-100">How to do Basic Jumping and how to landing safely</span>
+          <div class="lg:w-72">
+            <span class="block text-3xl mb-5 leading-normal tracking-wider font-medium text-gray-100">
+              How to do Basic Jumping and how to landing safely
+            </span>
 
             <div class="font-medium text-white">Andy William </div>
 
@@ -22,9 +24,9 @@
         </div>
       </div>
 
-      <div class="relative p-4 col-span-4 rounded-2xl bg-orange-500">
+      <div class="relative p-4 lg:col-span-4 rounded-2xl bg-orange-500">
         <div class="p-5">
-          <div class="w-72">
+          <div class="lg:w-72">
             <span class="block text-3xl mb-5 leading-normal tracking-wider font-medium text-gray-100">How to do Basic Jumping and how to landing safely</span>
 
             <div class="font-medium text-white">Andy William </div>
@@ -44,9 +46,9 @@
     
     <h2 class="text-2xl mb-5 font-regular text-gray-100">Most Watched</h2>
 
-    <div class="grid grid-cols-4 gap-5">
+    <div class="grid grid-cols-1 lg:grid-cols-4 gap-5">
       <div class="bg-gray-800 rounded-2xl relative overflow-hidden" v-for="card in cardItems">
-        <img src="https://api.lorem.space/image/shoes?w=400&h=400" alt="Shoes">
+        <img class="object-none" src="https://api.lorem.space/image/shoes?w=400&h=400" alt="Shoes">
         <div class="absolute top-0 right-0 p-2">
           <span class="px-2 py-1 bg-gray-800 text-gray-200 text-xs opacity-70 rounded-md">7 min</span>
         </div>

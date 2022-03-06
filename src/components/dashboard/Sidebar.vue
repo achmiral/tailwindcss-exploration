@@ -1,5 +1,5 @@
 <template>
-  <aside class="col-span-2">
+  <aside class="hidden lg:block lg:col-span-2">
     <span class="block mb-3 text-gray-400 uppercase text-xs">Menu</span>
 
     <div class="grid grid-cols-1 gap-5 mb-10">
